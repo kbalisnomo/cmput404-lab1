@@ -1,0 +1,33 @@
+Question 1: What is your GitHub URL?
+https://github.com/kbalisnomo
+
+Question 2: What version is the requests library installed on the system?
+2.27.1
+
+Question 3: What version is the requests library installed in the virtualenv?
+2.27.1
+
+Question 4: What is the difference between the virtual environment and the not virtual environment python?
+The versions are the same as they both came from pip but were installed into different environments.
+
+Question 5: What status code is returned for http://google.com ? What URL must you visit to get a 200 status code?
+Status code: 301 Moved Permanently
+URL to get a 200 status code: "http://www.google.com/"
+
+Question 6: What status code is returned for http://google.com/teapot? Is it the one returned by curl -i or curl -iL? What happens when you curl http://www.google.com/teapot?
+Using curl -i in both cases.
+Status code from "http://google.com/teapot": 301 Moved Permanently
+Status code from "http://www.google.com/teapot": 418 I'm a teapot
+
+Question 7: What changed in the output of https://webdocs.cs.ualberta.ca/~hindle1/1.py when you used -X POST? What is this method useful for?
+The output contained the following form contents whereas the original command did not:
+    <H3>Form Contents:</H3>
+    <DL>
+    <DT>X: <i>&lt;type 'instance'&gt;</i>
+    <DD>MiniFieldStorage('X', 'Y')
+    </DL>
+This command is useful for making POST requests to send data.
+
+
+Question 8: What is the raw URL to your Python script on GitHub?
+https://raw.githubusercontent.com/kbalisnomo/cmput404-lab1/main/lab1.py
